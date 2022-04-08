@@ -11,7 +11,7 @@ services:
     environment:
       SPRING_DATASOURCE_DRUID_URL: jdbc:mysql://127.0.0.1:3306/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       SPRING_DATASOURCE_DRUID_USERNAME: root
-      SPRING_DATASOURCE_DRUID_PASSWORD: root
+      SPRING_DATASOURCE_DRUID_PASSWORD: Lyt123!@#
       QINIU_ACCESSKEY: "y8FqF0iKXzd4QPuhKK_ZQprvEa9fAVtQUIv0Rk_7"
       QINIU_SERECTKEY: "o93m3PmhrSywi8C1Rn60fBE_F_rda5Jjv0avIAB0"
       QINIU_BUCKET: "deerspace"
