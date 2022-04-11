@@ -3,7 +3,7 @@ server:
   ssl:
     key-store: classpath:niuquan.xyz.pfx
     key-store-password: Lu19821006
-    key-store-type: TrustAsia TLS RSA CA
+    key-store-type: PKCS12
 
 
 spring:
