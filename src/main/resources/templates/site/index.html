@@ -2,7 +2,9 @@
 
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <div th:replace="site/head::head(${commons.site_title()},${commons.google_site_verification()}, ${commons.baidu_site_verification()})"></div>
-
+<head>
+  <meta charset="UTF-8" />
+</head>
 <body>
 
 <!-- header -->
@@ -20,7 +22,7 @@
         <header>
           <h2 style="font-size:24px"><span style="font-size:32px">温度</span> A Python Java C# Developer, A Data Engineer, GISer , Machine Learner</h2>
         </header>
-        <p style="font-size:10px">I can fly , I can touch the sky. 保持积极向上，永远热泪盈眶</p>
+        <p style="font-size:16px">I can fly , I can touch the sky. 保持积极向上，永远热泪盈眶</p>
       </article>
     </section>
     <th:block th:each="archive,archiveStat : ${archives.list}">
