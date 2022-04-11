@@ -2,8 +2,8 @@ server:
   port: 443
   ssl:
     key-store: classpath:niuquan.xyz.pfx
-    key-store-password: l29df164yf5d4z
-    key-store-type: PKCS12
+    key-store-password:Lu19821006
+    key-store-type: TrustAsia TLS RSA CA
 
 
 spring:
